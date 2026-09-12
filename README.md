@@ -7,6 +7,10 @@ BMI Studio allows users to enter their height and weight, calculate
 their BMI, and instantly see their BMI category through an interactive
 and clean interface.
 
+# BMI Dash Calculator
+
+🌐 https://klyrostack.github.io/bmi-calculator/
+
 ## ✨ Features
 
 -   BMI calculation using height and weight
