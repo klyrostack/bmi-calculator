@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BMI Studio</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About BMI</a>
+        <a href="#">How It Works</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>Understand Your Body</h2>
+        <p>Your BMI Is More Than Just A Number</p>
+      </section>
+
+      <section class="calculator">
+        <h2>BMI Calculator</h2>
+        <label for="height">Height (cm)</label>
+        <input type="number" id="height" />
+        <label for="weight">Weight (kg)</label>
+        <input type="number" id="weight" />
+        <button id="calculate">Calculate BMI</button>
+        <button id="reset">Reset</button>
+      </section>
+
+      <section class="result">
+        <h2>Your Result</h2>
+
+        <div class="bmi-value">
+          <span>22.9</span>
+          <small>BMI</small>
+        </div>
+        <p>Healthy weight</p>
+        <p class="result-message">
+    Enter your height and weight to see your result.
+</p>
+
+        <div class="bmi-scale">
+          <span class="underweight">Underweight</span>
+          <span class="healthy">Healthy</span>
+          <span class="overweight">Overweight</span>
+          <span class="obese">Obese</span>
+        </div>
+      </section>
+
+      <section class="information">
+        <h2>Understanding BMI</h2>
+
+        <h3>What is BMI?</h3>
+        <p>
+          BMI is a measurement that compares a person's weight with their
+          height.
+        </p>
+
+        <h3>BMI Formula</h3>
+        <p>BMI = Weight ÷ Height²</p>
+
+        <h3>Important to know</h3>
+        <p>
+          BMI is a general screening measurement and does not directly measure
+          body fat or overall health.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Copyright &copy; Klyro Stack 2026.<br />
+        All Rights Reserved
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
